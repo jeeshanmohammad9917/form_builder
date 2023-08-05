@@ -12,7 +12,7 @@
         <div class="toolbox">
             <div class="tool" draggable="true" data-element="input-text">Input Text</div>
             <div class="tool" draggable="true" data-element="input-email">Input Email</div>
-            <div class="tool" draggable="true" data-element="input-password">Input Password</div>
+            <div class="tool" draggable="true" data-element="input-password">Input Pass</div>
             <div class="tool" draggable="true" data-element="input-number">Input Number</div>
             <div class="tool" draggable="true" data-element="input-submit">Input Submit</div>
             
