@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const saveButton = document.getElementById('save-button');
-    saveButton.addEventListener('click', saveFormElements,clearFormPreview);
+    saveButton.addEventListener('click', saveFormElements);
 
     const clearButton = document.getElementById('save-button');
     clearButton.addEventListener('click', clearFormPreview);
