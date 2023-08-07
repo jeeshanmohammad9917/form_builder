@@ -27,8 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     formPreview.addEventListener('drop', function(event) {
-        event.preventDefault();
-
+     
         const elementType = event.dataTransfer.getData('application/form-builder');
         const formElement = createFormElement(elementType);
         formPreview.appendChild(formElement);
